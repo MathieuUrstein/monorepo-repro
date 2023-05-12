@@ -1,0 +1,37 @@
+{
+	"compilerOptions": {
+	  "allowJs": true,
+	  "allowSyntheticDefaultImports": true,
+	  "checkJs": false,
+	  "composite": true,
+	  "incremental": true,
+	  "jsx": "preserve",
+	  "module": "ES6",
+	  "target": "ESNext",
+ 
+	  /* Strict Type-Checking Options */
+	  "noImplicitAny": true,
+	  "strict": true,
+	  "strictNullChecks": true,
+ 
+	  /* Additional Checks */
+	  "noFallthroughCasesInSwitch": false,
+	  "noImplicitReturns": false,
+	  "noUnusedLocals": true,
+	  "noUnusedParameters": true,
+ 
+	  /* Module Resolution Options */
+	  "skipLibCheck": true,
+	  "esModuleInterop": true,
+	  "moduleResolution": "node",
+	  "preserveSymlinks": true,
+	  "resolveJsonModule": true,
+	},
+	"exclude": [
+	  "**/dist/*",
+	  "**/node_modules/*",
+	  "**/imports/core/*",
+	  "**/src/core/*",
+	]
+ }
+ 

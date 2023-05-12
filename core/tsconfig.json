@@ -1,0 +1,17 @@
+{
+	"extends": "../tsconfig-base.json",
+	"compilerOptions": {
+	  "baseUrl": ".",
+	  "outDir": "dist",
+	  "paths": {
+		 "core/*": [
+			"./*",
+		 ],
+		 "*": [
+			"*",
+			"../microservices/service1/node_modules/*",
+		 ]
+	  }
+	},
+ }
+ 
